@@ -52,3 +52,11 @@ let y: newColor = newColor.Yellow
 let b: newColor = newColor.Blue
 console.log("TCL: y", y)
 console.log("TCL: b", b)
+
+// Any
+let notSure: any = 'asdf'
+notSure = 123
+console.log("TCL: notSure", notSure)
+
+// Object: assign any value except methods
+let prettySure: Object = 4
