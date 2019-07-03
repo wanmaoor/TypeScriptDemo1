@@ -60,3 +60,16 @@ console.log("TCL: notSure", notSure)
 
 // Object: assign any value except methods
 let prettySure: Object = 4
+
+// Void: type of do not return a value
+function voidUser(): void {
+  console.log('void: type of do not return a value');
+}
+
+let voidNull: void = null
+let voidUndefined: void = undefined
+
+// Null and Undefined
+
+let u: undefined = undefined;
+let n: null = null;
