@@ -18,6 +18,7 @@ class Student {
   }
 }
 
+// value type
 let student = new Student('lebron','Jr.','James')
 console.log(gretter(student));
 
@@ -35,3 +36,19 @@ console.log("TCL: stringArr", stringArr)
 
 let booleanArr: boolean[] = [false, true, false ]
 console.log("TCL: booleanArr", booleanArr)
+
+// Tuple
+let tuple: [string, number] = [ 'a', 123]
+console.log("TCL: tuple", tuple)
+
+// Enum
+enum Color {Red, Black, Green}
+let c: Color = Color.Black
+console.log("TCL: c", c)
+
+// change enum value
+enum newColor {Yellow = 44, Blue = 33}
+let y: newColor = newColor.Yellow
+let b: newColor = newColor.Blue
+console.log("TCL: y", y)
+console.log("TCL: b", b)
