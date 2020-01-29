@@ -75,7 +75,7 @@ let voidUndefined: void = undefined
 let u: undefined = undefined;
 let n: null = null;
 
-// Never: used when you sure that something is never going to occur or return from a function
+// !Never: used when you sure that something is never going to occur or return from a function
 function throwError(errorMsg: string): never {
   throw new Error(errorMsg);
 }

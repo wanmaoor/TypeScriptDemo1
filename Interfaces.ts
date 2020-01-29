@@ -91,3 +91,5 @@ myObject = {name: 'James', age: 11, pro: 'basketball'}
 let myStr = myArr[0]
 console.log("TCL: myObject", myObject)
 console.log(myArr.length);
+
+// Class Interfaces
