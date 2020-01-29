@@ -3,13 +3,13 @@ interface Person {
   lastName: string;
 }
 
-function gretter(person: Person) {
+function greeter(person: Person) {
   return `hello ${person.firstName} ${person.lastName}`
 }
 
 let user = { firstName: 'Bill', lastName: 'Gates' }
 
-console.log(gretter(user));
+console.log(greeter(user));
 
 class Student {
   fullName: string;
@@ -20,7 +20,7 @@ class Student {
 
 // value type
 let student = new Student('lebron', 'Jr.', 'James')
-console.log(gretter(student));
+console.log(greeter(student));
 
 let isDone: boolean = false
 console.log("TCL: isDone:", isDone)
@@ -65,6 +65,7 @@ let prettySure: Object = 4
 function voidUser(): void {
   console.log('void: type of do not return a value');
 }
+voidUser()
 
 let voidNull: void = null
 let voidUndefined: void = undefined
@@ -84,7 +85,7 @@ function keepProcessing(): never {
     console.log('I always does something and never ends.')
   }
 }
-
+// keepProcessing()
 // Object
 // declare function create(o: object | null): void;
 // create({o: 1})
