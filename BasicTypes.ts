@@ -67,7 +67,7 @@ function voidUser(): void {
 }
 voidUser()
 
-let voidNull: void = null
+// let voidNull: void = null
 let voidUndefined: void = undefined
 
 // Null and Undefined

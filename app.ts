@@ -10,3 +10,4 @@ const result = combine(1, 2)
 console.log("TCL: result", result)
 const result1 = combine('hello', 'world')
 console.log("TCL: result1", result1)
+console.log(1233333);
